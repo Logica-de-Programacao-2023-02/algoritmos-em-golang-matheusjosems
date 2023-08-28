@@ -1,0 +1,92 @@
+ex01.go
+var primeiro, segundo, terceiro float64
+	fmt.Print("Qual é primeiro numero ? ")
+	fmt.Scan(&primeiro)
+	fmt.Print("Qual é segundo numero ? ")
+	fmt.Scan(&segundo)
+	fmt.Print("Qual é terceiro numero ? ")
+	fmt.Scan(&terceiro)
+
+	soma := primeiro + segundo + terceiro
+	fmt.Println("A soma é ", soma)
+
+ex02.go
+var numero float64
+	fmt.Print("Informe o numero: ")
+	fmt.Scan(&numero)
+
+	dobro := numero * 2
+	fmt.Println("O dobro do numero é ", dobro)
+
+	triplo := numero * 3
+	fmt.Println("O triplo do numero é ", triplo)
+
+	quadruplo := numero * 4
+	fmt.Println("O quadruplo do numero é ", quadruplo)
+
+ex03.go
+var primeiro, segundo, terceiro float64
+	fmt.Print("Qual é primeiro numero ? ")
+	fmt.Scan(&primeiro)
+	fmt.Print("Qual é segundo numero ? ")
+	fmt.Scan(&segundo)
+	fmt.Print("Qual é terceiro numero ? ")
+	fmt.Scan(&terceiro)
+
+	média := ((primeiro * 2) + (segundo * 3) + (terceiro * 5)) / (2 + 3 + 5)
+	fmt.Println("A media é ", média)
+
+ex05.go
+var idade float64
+	fmt.Print("Qual é idade ? ")
+	fmt.Scan(&idade)
+
+	dias := idade * 365
+	fmt.Println(" a idade em dias é  ", dias)
+
+ex06.go
+var salario float64
+	fmt.Print("salario: ")
+	fmt.Scan(&salario)
+
+	n := (salario * (0.15)) + salario
+	fmt.Println(" novo salario:  ", n)
+
+ex07.go
+var numero float64
+	fmt.Print("Informe o numero: ")
+	fmt.Scan(&numero)
+
+	sucessor := numero + 1
+	fmt.Println(" sucessor do numero é ", sucessor)
+
+	antecessor := numero - 1
+	fmt.Println(" antecessor do numero é ", antecessor)
+
+ex08.go
+var dias, diaria float64
+	fmt.Print("dias de trabalho: ")
+	fmt.Scan(&dias)
+	fmt.Print("diaria do trabalho: ")
+	fmt.Scan(&diaria)
+
+	n := dias * diaria
+	fmt.Println(" salario:  ", n)
+
+ex09.go
+var produto float64
+	fmt.Print("preço do produto: ")
+	fmt.Scan(&produto)
+
+	n := (produto * (0.10)) - produto
+	fmt.Println(" desconto:  ", n)
+
+ex10.go
+var peso float64
+	fmt.Print("peso em kg: ")
+	fmt.Scan(&peso)
+
+	n := peso * 2.20462
+	fmt.Println(" peso em libras: ", n)
+
+
