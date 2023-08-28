@@ -25,6 +25,22 @@ var numero float64
 	fmt.Println("O quadruplo do numero é ", quadruplo)
 
 ex03.go
+package main
+
+import "fmt"
+
+func main() {
+	var peso, altura float64
+	fmt.Print("peso:  ")
+	fmt.Scan(&peso)
+	fmt.Print("altura : ")
+	fmt.Scan(&altura)
+
+	IMC := peso / (altura * altura)
+	fmt.Println("IMC ", IMC)
+
+}
+
 var primeiro, segundo, terceiro float64
 	fmt.Print("Qual é primeiro numero ? ")
 	fmt.Scan(&primeiro)
